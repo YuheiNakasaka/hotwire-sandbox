@@ -3,7 +3,6 @@
     "rubocop": false
   },
   "solargraph.diagnostics": true,
-
   "ruby.format": false,
   "solargraph.formatting": true,
   "[ruby]": {
@@ -12,5 +11,13 @@
   },
   "[markdown]": {
     "editor.formatOnSave": false
+  },
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "scss"],
+    "html": ["htm", "html", "erb"]
   }
 }

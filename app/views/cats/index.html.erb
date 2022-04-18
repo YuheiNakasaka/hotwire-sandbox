@@ -4,11 +4,13 @@
 
 <div id="cats">
   <% @cats.each do |cat| %>
-    <%= render cat %>
-    <p>
-      <%= link_to "Show this cat", cat %>
-    </p>
+  <%= render cat %>
+  <p>
+    <%= link_to "Show this cat", cat %>
+  </p>
   <% end %>
 </div>
+
+<%= paginate @cats %>
 
 <%= link_to "New cat", new_cat_path %>
