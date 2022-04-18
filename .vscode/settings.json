@@ -1,0 +1,16 @@
+{
+  "ruby.lint": {
+    "rubocop": false
+  },
+  "solargraph.diagnostics": true,
+
+  "ruby.format": false,
+  "solargraph.formatting": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "castwide.solargraph",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}
