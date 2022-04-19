@@ -1,0 +1,7 @@
+<%# #catsの先頭に登録されたcatを追加すること %>
+<%= turbo_stream.prepend "cats", @cat %>
+
+<%# 登録のフォームを空にする %>
+<%= turbo_stream.update Cat.new, "" %>
+
+<%= turbo_stream_flash %>
